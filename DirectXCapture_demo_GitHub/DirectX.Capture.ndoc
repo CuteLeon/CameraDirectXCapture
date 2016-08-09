@@ -1,0 +1,108 @@
+<project>
+    <assemblies>
+        <assembly location="DirectX.Capture\bin\Release\DirectX.Capture.dll" documentation="DirectX.Capture\bin\Release\DirectX.Capture.xml" />
+    </assemblies>
+    <namespaces>
+        <namespace name="DirectX.Capture">The DirectX.Capture namespace contains classes to capture video and audio to AVI files. See the <b>Capture</b> class for information on using this namespace.</namespace>
+    </namespaces>
+    <documenters>
+        <documenter name="JavaDoc">
+            <property name="OutputDirectory" value=".\docs\JavaDoc\" />
+            <property name="ShowMissingSummaries" value="False" />
+            <property name="ShowMissingRemarks" value="False" />
+            <property name="ShowMissingParams" value="False" />
+            <property name="ShowMissingReturns" value="False" />
+            <property name="ShowMissingValues" value="False" />
+            <property name="DocumentInternals" value="False" />
+            <property name="DocumentProtected" value="True" />
+            <property name="DocumentPrivates" value="False" />
+            <property name="DocumentEmptyNamespaces" value="False" />
+            <property name="IncludeAssemblyVersion" value="False" />
+            <property name="CopyrightText" value="" />
+            <property name="CopyrightHref" value="" />
+            <property name="SkipNamespacesWithoutSummaries" value="False" />
+            <property name="AutoPropertyBackerSummaries" value="False" />
+            <property name="AutoDocumentConstructors" value="True" />
+            <property name="DocumentAttributes" value="False" />
+            <property name="DocumentedAttributes" value="" />
+            <property name="GetExternalSummaries" value="True" />
+        </documenter>
+        <documenter name="Latex">
+            <property name="OutputDirectory" value="Tex" />
+            <property name="TextFileFullName" value="Documentation.tex" />
+            <property name="TexFileBaseName" value="Documentation" />
+            <property name="LatexCompiler" value="latex" />
+            <property name="TexFileFullPath" value="Tex\Documentation.tex" />
+            <property name="ShowMissingSummaries" value="False" />
+            <property name="ShowMissingRemarks" value="False" />
+            <property name="ShowMissingParams" value="False" />
+            <property name="ShowMissingReturns" value="False" />
+            <property name="ShowMissingValues" value="False" />
+            <property name="DocumentInternals" value="False" />
+            <property name="DocumentProtected" value="True" />
+            <property name="DocumentPrivates" value="False" />
+            <property name="DocumentEmptyNamespaces" value="False" />
+            <property name="IncludeAssemblyVersion" value="False" />
+            <property name="CopyrightText" value="" />
+            <property name="CopyrightHref" value="" />
+            <property name="SkipNamespacesWithoutSummaries" value="False" />
+            <property name="AutoPropertyBackerSummaries" value="False" />
+            <property name="AutoDocumentConstructors" value="True" />
+            <property name="DocumentAttributes" value="False" />
+            <property name="DocumentedAttributes" value="" />
+            <property name="GetExternalSummaries" value="True" />
+        </documenter>
+        <documenter name="MSDN">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="DirectX.Capture" />
+            <property name="IncludeFavorites" value="False" />
+            <property name="Title" value="DirectX.Capture Class Library" />
+            <property name="SplitTOCs" value="False" />
+            <property name="DefaulTOC" value="" />
+            <property name="IncludeHierarchy" value="True" />
+            <property name="ShowVisualBasic" value="False" />
+            <property name="OmitObjectTags" value="False" />
+            <property name="RootPageContainsNamespaces" value="False" />
+            <property name="SortTOCByNamespace" value="True" />
+            <property name="ShowMissingSummaries" value="False" />
+            <property name="ShowMissingRemarks" value="False" />
+            <property name="ShowMissingParams" value="False" />
+            <property name="ShowMissingReturns" value="False" />
+            <property name="ShowMissingValues" value="False" />
+            <property name="DocumentInternals" value="False" />
+            <property name="DocumentProtected" value="False" />
+            <property name="DocumentPrivates" value="False" />
+            <property name="DocumentEmptyNamespaces" value="False" />
+            <property name="IncludeAssemblyVersion" value="True" />
+            <property name="CopyrightText" value="© 2002 Brian Low. All rights reserved." />
+            <property name="CopyrightHref" value="" />
+            <property name="SkipNamespacesWithoutSummaries" value="False" />
+            <property name="AutoPropertyBackerSummaries" value="True" />
+            <property name="AutoDocumentConstructors" value="True" />
+            <property name="DocumentAttributes" value="False" />
+            <property name="DocumentedAttributes" value="" />
+            <property name="GetExternalSummaries" value="True" />
+        </documenter>
+        <documenter name="XML">
+            <property name="OutputFile" value=".\doc\doc.xml" />
+            <property name="ShowMissingSummaries" value="False" />
+            <property name="ShowMissingRemarks" value="False" />
+            <property name="ShowMissingParams" value="False" />
+            <property name="ShowMissingReturns" value="False" />
+            <property name="ShowMissingValues" value="False" />
+            <property name="DocumentInternals" value="False" />
+            <property name="DocumentProtected" value="True" />
+            <property name="DocumentPrivates" value="False" />
+            <property name="DocumentEmptyNamespaces" value="False" />
+            <property name="IncludeAssemblyVersion" value="False" />
+            <property name="CopyrightText" value="" />
+            <property name="CopyrightHref" value="" />
+            <property name="SkipNamespacesWithoutSummaries" value="False" />
+            <property name="AutoPropertyBackerSummaries" value="False" />
+            <property name="AutoDocumentConstructors" value="True" />
+            <property name="DocumentAttributes" value="False" />
+            <property name="DocumentedAttributes" value="" />
+            <property name="GetExternalSummaries" value="True" />
+        </documenter>
+    </documenters>
+</project>
